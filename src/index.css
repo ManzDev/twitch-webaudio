@@ -1,0 +1,37 @@
+body {
+  background: #223;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: auto;
+  background: black;
+}
+
+.user-message {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  grid-template-rows: 100px;
+  gap: 20px;
+  color: #fff;
+  font-family: EnterCommand;
+  font-size: 32px;
+}
+
+.user-message .username {
+  color: orangered;
+  background: #000;
+  display: inline-block;
+  font-size: 27px;
+}
+
+.user-message .message {
+  overflow: hidden;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+}
