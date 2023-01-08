@@ -13,11 +13,11 @@ body {
 .user-message {
   display: grid;
   grid-template-columns: 70px 1fr;
-  grid-template-rows: 100px;
   gap: 20px;
   color: #fff;
   font-family: EnterCommand;
   font-size: 32px;
+  background: black;
 }
 
 .user-message .username {
